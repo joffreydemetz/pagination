@@ -29,6 +29,7 @@ $vars is an array containing :
 
 Finally wrap it in a twig template that uses the bootstrap pagination module
 
+```
 {% spaceless %}
 <div id="pagination-box">
  <form id="pagination" name="adminListPagination">
