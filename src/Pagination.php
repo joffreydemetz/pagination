@@ -3,15 +3,14 @@
  * THIS SOFTWARE IS PRIVATE
  * CONTACT US FOR MORE INFORMATION
  * Joffrey Demetz <joffrey.demetz@gmail.com>
- * <http://callisto-framework.com>
+ * <https://callisto-framework.com>
  */
 namespace JDZ\Pagination;
 
 /**
  * Pagination
- *
- * @package Callisto
- * @author      Joffrey Demetz <joffrey.demetz@gmail.com>
+ * 
+ * @author Joffrey Demetz <joffrey.demetz@gmail.com>
  */
 class Pagination 
 {
@@ -169,6 +168,18 @@ class Pagination
       'links'         => $this->links,
       'viewall'       => $this->viewall,
     ];
+  }
+  
+  public function getLimits(){
+    return $this->limits;
+  }
+  
+  public function getSelectedLimit(){
+    return $this->selectedLimit;
+  }
+  
+  public function getPages(){
+    return $this->pages;
   }
   
   protected function checkRange()

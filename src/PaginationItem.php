@@ -3,15 +3,14 @@
  * THIS SOFTWARE IS PRIVATE
  * CONTACT US FOR MORE INFORMATION
  * Joffrey Demetz <joffrey.demetz@gmail.com>
- * <http://callisto-framework.com>
+ * <https://callisto-framework.com>
  */
 namespace JDZ\Pagination;
 
 /**
  * Pagination item
  * 
- * @package Callisto
- * @author      Joffrey Demetz <joffrey.demetz@gmail.com>
+ * @author Joffrey Demetz <joffrey.demetz@gmail.com>
  */
 class PaginationItem 
 {
